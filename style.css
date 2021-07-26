@@ -30,7 +30,7 @@ figcaption,
 blockquote,
 dl,
 dd {
-	font-weight: normal;
+	font-weight: 400;
   margin: 0;
 }
 
@@ -56,11 +56,14 @@ a {
 }
 /* global */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 body {
-	font-family: Comic Sans MS,	cursive;
+	font-family: 'Raleway', sans-serif;
 	min-width: 1200px;
 	/* padding: 0 15px; */
 	margin: 0 auto;
+	line-height: 22px;
 }
 
 li {
@@ -129,7 +132,7 @@ li:last-child {
 .person__title {
 	font-size: 22px;
 	line-height: 26px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .person__subtitle {
