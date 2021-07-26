@@ -59,7 +59,7 @@ a {
 body {
 	font-family: Comic Sans MS,	cursive;
 	min-width: 1200px;
-	padding: 0 15px;
+	/* padding: 0 15px; */
 	margin: 0 auto;
 }
 
@@ -106,8 +106,8 @@ li:last-child {
 	content: '';
 	position: absolute;
 	top: 45%;
-	right: 3%;
-	width: 80%;
+	right: 15%;
+	width: 60%;
 	height: 1px;
 	background-color: #004078;
 }
@@ -119,7 +119,7 @@ li:last-child {
 	background-size: cover;
 	position: absolute;
 	top: -5px;
-	right: -5%;
+	right: 0;
 	width: 40px;
 	height: 40px;
 }
@@ -138,6 +138,10 @@ li:last-child {
 }
 
 .main {
+	max-width: 1200px;
+	border-right: 1px solid rgba(221,221,221, 0.5);
+	border-bottom: 1px solid rgba(221,221,221, 0.5);
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
@@ -254,4 +258,9 @@ li:last-child {
 
 .experience__title::after {
 	background-image: url(assets/images/experience.svg);
+}
+
+.projects__item-links {
+	display: flex;
+	justify-content: space-between;
 }
