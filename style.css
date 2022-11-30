@@ -238,12 +238,19 @@ li:last-child {
 
 .person__title {
 	font-size: 42px;
-	line-height: 62px;
+	line-height: 42px;
+	margin-bottom: 20px;
 }
 
 .person__subtitle {
 	font-size: 28px;
-	line-height: 46px;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+
+.person__subtitle-description {
+	font-size: 18px;
+	line-height: 18px;
 }
 
 .about__title::after {
@@ -263,7 +270,14 @@ li:last-child {
 	background-image: url(assets/images/experience.svg);
 }
 
-.projects__item-links {
-	display: flex;
-	justify-content: space-between;
+.experience__item {
+	margin-bottom: 30px;
+}
+
+.experience__item-title {
+	font-weight: 600;
+}
+
+.experience__item-technology {
+	font-style: italic;
 }
